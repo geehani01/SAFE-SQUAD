@@ -1,6 +1,6 @@
 # SKUAD S.A.F.E.
 
-Aplikasi psikopendidikan pencegahan buli untuk murid sekolah rendah. Antara muka menggunakan Bahasa Melayu Malaysia, empat avatar (Arif, Airis, Faris dan Sara), empat peta misi, animasi pulau serta tema kaca responsif.
+Aplikasi psikopendidikan pencegahan buli untuk murid sekolah rendah. Antara muka menggunakan Bahasa Melayu Malaysia, empat avatar (ALFA, NOVA, BYTE dan AURA), empat peta misi, animasi pulau serta tema kaca responsif.
 
 ## Status pembangunan
 
@@ -23,3 +23,7 @@ Buka `http://localhost:8000`. Kamera memerlukan izin pengguna dan konteks selama
 ## Terbitan
 
 Laman kerja: https://skuad-safe.geehani.chatgpt.site/
+
+## Versi nama kod
+
+Branch `codex/versi-nama-kod` menggunakan ALFA (Ketua Skuad), NOVA (Pakar Komunikasi), BYTE (Pakar Digital) dan AURA (Pakar Sokongan).

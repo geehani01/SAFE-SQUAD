@@ -31,7 +31,7 @@
 <button class="nav next" id="next" aria-label="Karakter seterusnya" aria-controls="track">›</button>
 <div class="slider-footer"><div class="dots" id="dots" aria-label="Pilih slaid"></div><p class="hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M8 4 3 9l5 5M3 9h18M16 10l5 5-5 5M21 15H3"/></svg><span id="slide-label" role="status" aria-live="polite"></span></p></div>
 </section>
-<form class="form" id="form"><label for="name">Nama penuh kamu<input id="name" name="name" maxlength="60" autocomplete="name" placeholder="Tulis nama penuh kamu" required></label><button class="cta" id="choose" type="submit">Pilih Arif →</button></form>
+<form class="form" id="form"><label for="name">Nama penuh kamu<input id="name" name="name" maxlength="60" autocomplete="name" placeholder="Tulis nama penuh kamu" required></label><button class="cta" id="choose" type="submit">Pilih ALFA →</button></form>
 <p class="feedback" id="feedback" role="status" aria-live="polite"></p>
 </main>
 <script src="js/nexus-engine.js"></script>
@@ -39,10 +39,10 @@
 <script src="js/safe-world.js"></script>
 <script>
 const people=[
-{id:'arif',name:'Arif',role:'Ketua Skuad',desc:'Berani membuat pilihan yang selamat dan mengajak rakan bertindak bersama.',power:'Kepimpinan berhemah',color:'#168cfa'},
-{id:'airis',name:'Airis',role:'Pakar Komunikasi',desc:'Bijak menggunakan kata-kata yang baik untuk meredakan keadaan dan mendapatkan bantuan.',power:'Kata-kata positif',color:'#e8ad16'},
-{id:'faris',name:'Faris',role:'Pakar Digital',desc:'Peka terhadap buli siber dan tahu cara melindungi diri serta rakan di ruang digital.',power:'Keselamatan digital',color:'#ed605b'},
-{id:'sara',name:'Sara',role:'Pakar Sokongan',desc:'Mendengar dengan empati dan menemani rakan untuk mendapatkan sokongan orang dewasa.',power:'Empati dan sokongan',color:'#9b6be8'}];
+{id:'arif',name:'ALFA',role:'Ketua Skuad',desc:'Berani membuat pilihan yang selamat dan mengajak rakan bertindak bersama.',power:'Kepimpinan berhemah',color:'#168cfa'},
+{id:'airis',name:'NOVA',role:'Pakar Komunikasi',desc:'Bijak menggunakan kata-kata yang baik untuk meredakan keadaan dan mendapatkan bantuan.',power:'Kata-kata positif',color:'#e8ad16'},
+{id:'faris',name:'BYTE',role:'Pakar Digital',desc:'Peka terhadap buli siber dan tahu cara melindungi diri serta rakan di ruang digital.',power:'Keselamatan digital',color:'#ed605b'},
+{id:'sara',name:'AURA',role:'Pakar Sokongan',desc:'Mendengar dengan empati dan menemani rakan untuk mendapatkan sokongan orang dewasa.',power:'Empati dan sokongan',color:'#9b6be8'}];
 const $=s=>document.querySelector(s);
 const storage={get(k){try{return localStorage.getItem(k)}catch{return null}},set(k,v){try{localStorage.setItem(k,v)}catch{}}};
 let index=Math.max(0,people.findIndex(p=>p.id===storage.get('safe-character')));
